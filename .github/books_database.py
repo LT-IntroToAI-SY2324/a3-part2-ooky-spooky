@@ -1,3 +1,5 @@
+from typing import List, Tuple
+
 books_db: List[Tuple[str, str, int, List[str]]] = [
     (
         "it",  # title
@@ -91,5 +93,39 @@ books_db: List[Tuple[str, str, int, List[str]]] = [
         ],
     ),
     (
-        ""
-    )
+        "the hunger",
+        "alma katsu"
+        2018,
+        "james reed",
+        [
+            "elitha donner",
+            "tamsen donner",
+            "charles stanton",
+            "mary graves",
+            "jean-baptiste trudeau"
+        ],
+    ),
+    (
+        "ring",
+        "koji suzuki",
+        1991,
+        "sadako yamamura",
+        [
+            "kazuyuki asakawa",
+            "ryuji takayama",
+            "shizuki asakawa",
+            "yoko asakawa",
+        ],
+    ),
+    (
+        "house of leaves",
+        "mark z. danielewski"
+        2000,
+        "",
+        [
+            "johnny truant",
+            "zampano",
+            "lude",
+            "will navidson",
+        ],
+    ),
