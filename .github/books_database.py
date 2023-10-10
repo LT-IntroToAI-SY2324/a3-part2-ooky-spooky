@@ -92,4 +92,4 @@ books_db: List[Tuple[str, str, int, List[str]]] = [
     ),
     (
         ""
-    )
+    ),
