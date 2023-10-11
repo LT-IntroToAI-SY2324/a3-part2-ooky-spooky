@@ -82,7 +82,7 @@ games_db: List[Tuple[str, str, int, List[str]]] = [
         ),
 ]
 
-books_db: List[Tuple[str, str, int, List[str]]] = [
+books_db: List[Tuple[str, str, int, List[str]]] = [ #### WE HAVE AN ERROR SOMEWHERE -- [ AND ( NOT CLOSED, remember to be on the lookout for it :3 - Cat
     (
         "it",  # title
         "stephen king",  # author
@@ -172,6 +172,79 @@ books_db: List[Tuple[str, str, int, List[str]]] = [
             "mr. jerome",
             "mr. daily",
             "keckwick",
+        ],
+    ),
+    (
+        "the hunger",
+        "alma katsu"
+        2018,
+        "james reed",
+        [
+            "elitha donner",
+            "tamsen donner",
+            "charles stanton",
+            "mary graves",
+            "jean-baptiste trudeau",
+        ],
+    ),
+    (
+        "ring",
+        "koji suzuki",
+        1991,
+        "sadako yamamura",
+        [
+            "kazuyuki asakawa",
+            "ryuji takayama",
+            "shizuki asakawa",
+            "yoko asakawa",
+        ],
+    ),
+    (
+        "house of leaves",
+        "mark z. danielewski",
+        2000,
+        "unnamed monster",
+        [
+            "johnny truant",
+            "zampano",
+            "lude",
+            "will navidson",
+        ],
+    ),
+    (
+        "a head full of ghosts",
+        "paul g. tremblay",
+        2015,
+        "marjorie",
+        [
+            "meredith (merry) barrett",
+            "marjorie berrett",
+            "john barrett",
+            "sarah barrett",
+        ],
+    ),
+    (
+        "come closer",
+        "sara gran",
+        2003,
+        "naamah",
+        [
+            "amanda",
+            "adam",
+        ],
+    ),
+    (
+        "no24r2",
+        "joe hill, gabriel rodriguez",
+        2013,
+        "charles manx",
+        
+        [
+            "charles manx",
+            "vic mcqueen",
+            "linda mcqueen",
+            "chris mcqueen",
+            "lou carmody",
         ],
     ),
 ]
