@@ -119,7 +119,7 @@ books_db: List[Tuple[str, str, int, List[str]]] = [
     ),
     (
         "house of leaves",
-        "mark z. danielewski"
+        "mark z. danielewski",
         2000,
         "",
         [
@@ -127,5 +127,41 @@ books_db: List[Tuple[str, str, int, List[str]]] = [
             "zampano",
             "lude",
             "will navidson",
+        ],
+    ),
+    (
+        "a head full of ghosts",
+        "paul g. tremblay",
+        2015,
+        "marjorie",
+        [
+            "meredith (merry) barrett",
+            "marjorie berrett",
+            "john barrett",
+            "sarah barrett",
+        ],
+    ),
+    (
+        "come closer",
+        "sara gran",
+        2003,
+        "naamah",
+        [
+            "amanda",
+            "adam",
+        ],
+    ),
+    (
+        "no24r2",
+        "joe hill, gabriel rodriguez",
+        2013,
+        "charles manx"
+        
+        [
+            "charles manx",
+            "vic mcqueen",
+            "linda mcqueen",
+            "chris mcqueen",
+            "lou carmody",
         ],
     ),
