@@ -180,6 +180,7 @@ movies_db: List[Tuple[str, str, int, List[str]]] = [
     (
         "Get Out",
         "Jordan Peele", # director
+        "R", #rating
         2017, # year 
         [
             "Daniel Kaluuya", #actors
@@ -194,6 +195,7 @@ movies_db: List[Tuple[str, str, int, List[str]]] = [
     (
         "The Ring",
         "Gore Verbinski", # director
+        "PG-13", #rating
         2016, # year 
         [
             "Naomi Watts", #actors
@@ -204,46 +206,49 @@ movies_db: List[Tuple[str, str, int, List[str]]] = [
             "Lindsay Frost",
         ],
     ),
-     #### make sure to edit these! -- Cat :3
+    
       (
-        "Get Out",
-        "Jordan Peele", # director
-        2017, # year 
+        "Halloween",
+        "John Carpenter", # director
+        "R", #rating
+        1978, # year 
         [
-            "Daniel Kaluuya", #actors
-            "Allison Williams",
-            "Bradley Whitford",
-            "Catherine Keener",
-            "Caleb Landry Jones",
-            "Marcus Henderson",
+            "Jamie Lee Curtis", #actors
+            "Donald Pleasance",
+            "Tony Moran",
+            "Nancy Kyes",
+            "Brian Andrews",
+            "Charles Cyphers",
         ],
     ),
 
     (
-        "Get Out",
-        "Jordan Peele", # director
-        2017, # year 
+        "Hush",
+        "Mike Flanagan", # director
+        "R", #rating
+        2016, # year 
         [
-            "Daniel Kaluuya", #actors
-            "Allison Williams",
-            "Bradley Whitford",
-            "Catherine Keener",
-            "Caleb Landry Jones",
-            "Marcus Henderson",
+            "John Gallaghper Jr.", #actors
+            "Kate Siegel",
+            "Micheal Trucco",
+            "Samantha Sloyan",
+            "Emma Graves",
+            
         ],
     ),
 
     (
-        "Get Out",
-        "Jordan Peele", # director
-        2017, # year 
+        "The Conjuring",
+        "James Wan", # director
+        "R", #rating
+        2013, # year 
         [
-            "Daniel Kaluuya", #actors
-            "Allison Williams",
-            "Bradley Whitford",
-            "Catherine Keener",
-            "Caleb Landry Jones",
-            "Marcus Henderson",
+            "Patrick Wilson", #rating
+            "Vera Farminga",
+            "Ron Livingston",
+            "Lili Taylor",
+            "Shanley Caswell",
+            "Heyley McFarland",
         ],
     ),
 
