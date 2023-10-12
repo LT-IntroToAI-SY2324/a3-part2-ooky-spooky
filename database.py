@@ -1,6 +1,6 @@
 from typing import List, Tuple
 
-games_db: List[Tuple[str, str, int, List[str]]] = [
+games_db: List[Tuple[str, str, int, str, List[str]]] = [
         (
             "Amnesia, the Dark Descent", # title 
             "Frictional Games", # developer
@@ -82,7 +82,7 @@ games_db: List[Tuple[str, str, int, List[str]]] = [
         ),
 ]
 
-books_db: List[Tuple[str, str, int, List[str]]] = [   #### WE HAVE AN ERROR SOMEWHERE -- [ AND ( NOT CLOSED, remember to be on the lookout for it :3 - Cat
+books_db: List[Tuple[str, str, int, str, List[str]]] = [  
         (
             "it",  # title
             "stephen king",  # author
@@ -249,7 +249,7 @@ books_db: List[Tuple[str, str, int, List[str]]] = [   #### WE HAVE AN ERROR SOME
         ),
 ]
 
-movies_db: List[Tuple[str, str, int, List[str]]] = [
+movies_db: List[Tuple[str, str, str, int, List[str]]] = [
     (
         "Get Out",
         "Jordan Peele", # director
