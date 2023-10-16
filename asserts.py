@@ -247,6 +247,23 @@ def actors_by_rating(matches: List[str]) -> List[str]:
         result. append(get_actors(movie))
     return result
 
+# books
+def title_by_author(matches: List[str]) -> List[str]:
+    result = []
+    for book in book_db:
+        if get_author(book) == matches[0]:
+            result.append(get_title(book))
+    #print(result) 
+    return result
+
+def author_by_title(matches: List[str]) -> List[str]:
+    result = []
+    for book in book_db:
+        if get_title(book) == matches[0]:
+            result.append(get_author(book))
+    #print(result) 
+    return result
+
 # dummy argument is ignored and doesn't matter
 def bye_action(dummy: List[str]) -> None:
     raise KeyboardInterrupt
