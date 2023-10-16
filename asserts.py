@@ -61,8 +61,9 @@ def get_game_villain(game: Tuple[str, str, int, List[str]]) -> List[str]:
     return game[3]
 
 def get_game_characters(game: Tuple[str, str, int, List[str]]) -> List[str]:
-    return game[4]
+    return game[4]  
 
+#### movies 
 def title_by_year(matches: List[str]) -> List[str]:
     """Finds all movies made in the passed in year
 
@@ -228,6 +229,23 @@ def title_by_actor(matches: List[str]) -> List[str]:
     #print(result) 
     return result
 
+def rating_by_title(matches: List[str]) -> List[str]:
+    result = []
+    if matches[0] in get_title(movie):
+        result. append(get_ratings(movie))
+    return result
+
+def title_by_rating(matches: List[str]) -> List[str]:
+    result = []
+    if matches[0] in get_ratings(movie):
+        result. append(get_title(movie))
+    return result
+
+def actors_by_rating(matches: List[str]) -> List[str]:
+    result = []
+    if matches[0] in get_ratings(movie):
+        result. append(get_actors(movie))
+    return result
 
 # dummy argument is ignored and doesn't matter
 def bye_action(dummy: List[str]) -> None:
@@ -335,7 +353,8 @@ if __name__ == "__main__":
     assert isinstance(actors_by_title(["jaws"]), list), "actors_by_title not returning a list"
     assert isinstance(year_by_title(["jaws"]), list), "year_by_title not returning a list"
     assert isinstance(title_by_actor(["orson welles"]), list), "title_by_actor not returning a list"
-    assert isinstance(actors_by_title(["carrie"]), list) ### my assert
+    assert isinstance(actors_by_title(["carrie"]), list) 
+    assert isinstance(rating_by_title(["r"]), list) 
     
     assert sorted(title_by_year(["1974"])) == sorted(
         ["amarcord", "chinatown"]
@@ -381,7 +400,6 @@ if __name__ == "__main__":
         search_pa_list(["what", "movies", "were", "made", "in", "2020"])
     ) == sorted(["No answers"]), "failed search_pa_list test 3"
 
-    # my assert 
     assert sorted(actors_by_title(["carrie"])) == sorted(
         ["sissy spacek"]
     ), "failed actors_by_title test"
